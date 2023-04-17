@@ -1,0 +1,6 @@
+.addAvatarBtn {
+  padding: 81px;
+  border: 4px solid var(--main-color);
+  border-radius: 6px;
+  cursor: pointer;
+}

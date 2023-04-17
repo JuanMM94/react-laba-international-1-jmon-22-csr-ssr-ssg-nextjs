@@ -1,0 +1,10 @@
+:root {
+  --main-color: #02cc67;
+
+  background-color: #f2f2f2;
+}
+
+html,
+body {
+  margin: 0px;
+}

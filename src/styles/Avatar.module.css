@@ -1,0 +1,44 @@
+.avatar {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  cursor: pointer;
+}
+
+.avatar__opacity {
+  background: rgb(0, 0, 0);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: 0.2s all;
+}
+
+.avatar__onTop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  z-index: 2;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: 0.2s all;
+}
+
+.avatar__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.avatar:hover > .avatar__onTop {
+  opacity: 1;
+}
+
+.avatar:hover > .avatar__opacity {
+  opacity: 0.4;
+}

@@ -1,0 +1,14 @@
+.refreshAllBtn {
+  border: none;
+  background: var(--main-color);
+  color: #ffff;
+  align-self: center;
+  width: 240px;
+  height: 40px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: 'Basic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+}
